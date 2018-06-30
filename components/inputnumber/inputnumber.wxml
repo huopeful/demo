@@ -1,0 +1,16 @@
+<!--components/inputnumber/inputnumber.wxml-->
+<view>
+  <view class="inputnumber">
+    <view catchtap='substrict' class="left">-</view>
+    <view class="middle">{{count}}</view>
+    <view catchtap='add' class="right">+</view>
+  </view>
+  <!-- 插槽，相当于是视图的占位符，将来父页面中写的内容会替换这一块 -->
+  <!-- 默认插槽 -->
+  <!-- <slot></slot> -->
+
+  <!-- 具名插槽 -->
+  <slot name="before"></slot>
+  <view style="color:red;">这里是组件的内部细节</view>
+  <slot name="after"></slot>
+</view>

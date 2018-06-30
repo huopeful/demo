@@ -1,0 +1,16 @@
+/* components/inputnumber/inputnumber.wxss */
+.inputnumber{
+  display: flex;
+}
+
+.left,.middle,.right{
+  text-align: center;
+  border: 1px solid rgba(92, 92, 92, 0.3);
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.middle {
+  width: 80rpx;
+  margin: 0rpx 10rpx;
+}

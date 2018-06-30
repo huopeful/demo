@@ -1,0 +1,7 @@
+<template name="msgItem">
+  <view>
+    <!-- <text class="goodsMan">{{person.name}} 说我是一个好人 我来自 {{person.address}}</text> -->
+
+    <text class="goodsMan">{{name}} 说我是一个好人 我来自 {{address}}</text>
+  </view>
+</template>
